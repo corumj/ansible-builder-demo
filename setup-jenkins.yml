@@ -7,7 +7,7 @@
     java_packages:
       - java-1.8.0-openjdk
     jenkins_prefer_lts: true
-    #jenkins_version: "2.164"
+    jenkins_version: "2.164"
     jenkins_repo_url: https://pkg.jenkins.io/redhat{{ '-stable' if (jenkins_prefer_lts | bool) else '' }}/jenkins.repo
     jenkins_repo_key_url: https://pkg.jenkins.io/redhat{{ '-stable' if (jenkins_prefer_lts | bool) else '' }}/jenkins.io.key
 
